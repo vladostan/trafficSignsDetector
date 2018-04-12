@@ -19,3 +19,8 @@ Retrained ResNet-101 CNN to classify 7 classes (background, giveway, noentry, no
 ### Requirements
 * Matlab2017b or later.
 * [Download ResNet with my weights from Google Drive](https://drive.google.com/file/d/1M_s7DWkeaLg6vAhWepM7KCgDv9SKS9Pe/view?usp=sharing)
+
+### Images used in the project
+* [Traffic Sign Database](http://inf-server.inf.uth.gr/~gpotamianos/traffic_sign_database.html)
+* [Traffic Sign Recognition](http://www.vision.ee.ethz.ch/~timofter/traffic_signs/)
+* Manually collected from open source
