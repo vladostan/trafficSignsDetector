@@ -3,7 +3,7 @@ function [bboxes_signs, labels_signs] = classification(img, net, bboxes_reduced)
 global lowerBound upperBound IoU
 
 classes = net.Layers(end).ClassNames;
-labels = zeros(length(classes), 1);
+labels = zeros(size(bboxes_reduced,1), 1);
 
 for i = 1:size(bboxes_reduced,1)
     labels(i) = classify(net, imresize(imcrop(img, bboxes_reduced(i,:)), net.Layers(1).InputSize(1:2)));
