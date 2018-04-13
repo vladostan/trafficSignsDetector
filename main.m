@@ -20,17 +20,12 @@ if ~exist('net', 'var')
     load('trafficSignDetector');
 end
 
-%% Read and process image
-img = imread('imgs/Scene (1).jpg');
-% img = imread('imgs/Scene (2).jpg');
-% img = imread('imgs/Scene (3).jpg');
-% img = imread('imgs/Scene (4).jpg');
-% img = imread('imgs/Scene (5).jpg');
-% img = imread('imgs/Scene (6).jpg');
-% img = imread('imgs/Scene (7).jpg');
-% img = imread('imgs/Scene (8).jpg');
-% img = imread('imgs/Scene (9).jpg');
-% img = imread('imgs/Scene (10).jpg');
+%% Read and process image (100 Scenes available)
+img = imread('imgs/detection/Scene (1).jpg');
+% img = imread('imgs/detection/Scene (2).jpg');
+% img = imread('imgs/detection/Scene (3).jpg');
+% img = imread('imgs/detection/Scene (4).jpg');
+% img = imread('imgs/detection/Scene (5).jpg');
 
 % Detection
 tic
