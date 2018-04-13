@@ -14,7 +14,7 @@ Color segmentation algorithms that I've used are described here:
 ## Transfer Learning and Fine-Tuning of ResNet-101
 Retrained ResNet-101 CNN to classify 7 classes (background, giveway, noentry, nostop, parking, pedestrian, stop)
 
-![](https://github.com/vladostan/trafficSignsDetector/blob/master/imgs/results/Result (32).jpg?raw=true)
+![](https://github.com/vladostan/trafficSignsDetector/blob/master/imgs/results/Result%20(32).JPG?raw=true)
 
 ### Requirements
 * Matlab2017b or later.
